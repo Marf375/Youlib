@@ -1,0 +1,320 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prs{
+    margin-left: 2dvw;
+    margin-right: 2dvw;
+}
+ body{
+
+    font-family: 'Open-Sans';
+background: #000000;
+      /*background:linear-gradient(#2C041C,#000000);*/
+   /* background:linear-gradient(#0A3D2B,#000000); */
+   /* background:linear-gradient(#0F0F1A,#0F0F1A,#000000); */
+
+    overflow-x:hidden ;
+}
+.open-modal-button{
+    font-size:2rem ;
+    color:#9370DB;
+    bottom: 5dvw;
+
+}
+
+.addn{
+    margin-top: -0.7dvh;
+    margin-right: 3dvw;
+}
+.addn:hover{
+    color: whitesmoke;
+}
+.win{
+    margin-top: -15px;
+}
+.anp{
+    top: 3dvh;
+    left:65dvw
+}
+main{
+
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 550;
+}
+.h3-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.h3-align{
+    width: 65%;
+    opacity: 0.75;
+}
+span{
+    color: #bfa0ff;
+}
+.cas{
+    border-radius:20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popul{
+    border-radius:0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    color: #ffffff;
+    list-style-type: disc;
+}
+.price{
+    text-align:left;
+}
+.cart{
+    overflow: auto;
+    position: absolute;
+    background-color: #212121;
+    z-index: 50;
+}
+.dz{
+    position: absolute;
+    top:36.5dvh;
+    left:10.5dvw
+}
+        .product-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+           width:10dvw;
+           height: 30dvh;
+            display: block;
+        }
+
+        .product-info {
+            position: absolute;
+            bottom: -100%;
+            left: 0;
+            height:15dvh ;
+            width: 10dvw;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            transition: bottom 0.3s ease-in-out;
+        }
+
+        .product-card:hover .product-info {
+            bottom: 0;
+        }
+        .tab-pane:not(.show){
+            display: none !important;
+        }
+        .stars {
+            display: inline-block;
+        }
+
+        .star {
+            font-size: 50px;
+            color: #dcdcdc;
+            margin-right: 3px;
+        }
+
+        .star.filled {
+            color: gold;
+        }
+        .stars{
+            display: inline-flex;
+            direction: rtl;
+          }
+          .stars input {
+            display: none;
+          }
+          .stars label {
+            font-size: 40px;
+            color: gray;
+            cursor: pointer;
+          }
+          .stars input:checked ~ label {
+            color: gold;
+          }
+          .stars label:hover,
+          .stars label:hover ~ label {
+            color: gold;
+          }
+          .carousel-container{
+            height: 34dvh;
+            display: flex;
+            justify-content: center;
+          }
+          .nv{
+        color: #9370db;
+        font-size: 1.5rem;
+
+          }
+          .nv:active{
+            background-color: white;
+            color:#ffffff
+          }
+          .anv{
+            display: flex;
+            justify-content: space-around;
+          }
+.cd{
+    gap:30px
+}
+.car{
+    display: flex;
+    justify-content: center
+}
+.ff{
+    margin-top: 200px;
+}
+.it{
+    margin-top: 100px
+}
+.cs1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    justify-items: center;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+.tsp{
+    background-image: url(/resources/views/bibl1.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #9370DB
+}
+.fp{
+    word-wrap: break-word;
+    background-color: #8f7894a6;
+    width: 30dvw;
+    text-align: center;
+    color:white
+
+}
+button:active{
+background: transparent;
+}
+.cfk{
+    background-color: green;
+    margin-left:1dvw
+}
+.nv{
+    color:#9370db;
+}
+@media screen and (max-width:1400px)and (min-width:400px) {
+    .card{
+        width: 25dvw;
+    }
+    .product-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-image {
+       width:30dvw;
+       height: 25dvh;
+        display: block;
+    }
+
+    .product-info {
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        height:15dvh ;
+        width: 25dvw;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        transition: bottom 0.3s ease-in-out;
+    }
+    .prs{
+        width: 25dvw;
+    }
+    .imgb{
+        width: 30dvw;
+        height: 50dvh;
+    }
+    .gg{
+        width: 10dvw;
+        height:10dvh ;
+    }
+}
+@media screen and (max-width:400px){
+    .imgb{
+        width: 20dvw;
+        height: 20dvh;
+    }
+    .fp{
+      height: 20dvh;
+      overflow:hidden;
+        width: 50%;
+        padding: 7px;
+    }
+    .tsp{
+        width: 100dvw;
+    }
+    .card{
+        width: 55dvw;
+    }
+    .product-card {
+        width: 55dvw;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-image {
+       width:55dvw;
+       height: 35dvh;
+        display: block;
+    }
+
+    .product-info {
+        position: absolute;
+        bottom: -100%;
+        left: 0;
+        height:15dvh ;
+        width: 55dvw;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        transition: bottom 0.3s ease-in-out;
+    }
+    .prs{
+        width: 25dvw;
+    }
+
+}

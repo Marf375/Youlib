@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+   "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx", // Для React 17 и выше
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "baseUrl": "./",
+    "paths": {
+      "react": ["node_modules/react"]
+    },
+    "typeRoots": ["./node_modules/@types"]
+  }
+}

@@ -1,0 +1,70 @@
+.nav-pills .nav-link.active{
+    background: #9370DB;
+}
+body{
+    margin: 0;
+}
+header{
+ 
+
+    background-color: #111111;
+    width: 100%;
+    height: 120px;
+    font-family:'Montserrat';
+
+}
+select{
+    background-color: #111111;
+    font-size: 18px;
+    font-weight: 750;
+    border: none;
+    color: #FF4949;
+    text-align: center;
+
+}
+option{
+    font-weight: 700;
+}
+option:checked{
+    background-color: #FF4949;
+    color: aliceblue;
+}
+.header-buttons{
+    font-size: 18px;
+    background-color: rgba(0,0,0,0);
+    font-weight: 750;
+    border: none;
+    color: #9370DB;
+}
+.header-buttons:hover{
+    color: #FF4949;
+    cursor: pointer;
+}
+.align-header{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.align-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.align-buttons{
+    display: flex;
+    gap: 50px;
+}
+.name{
+    font-size: 18px;
+    font-family:'Montserrat';
+    color: #e3fc3d;
+}
+.profile{
+    text-decoration: none;
+}

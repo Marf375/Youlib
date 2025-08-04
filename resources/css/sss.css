@@ -1,0 +1,30 @@
+img{
+    width: 5dvw;
+    height: 15dvh;
+}
+.cc{
+    background-color:#5e525c;
+    overflow-y: scroll;
+    width: 50dvw;
+    max-height: 80dvh;
+}
+.cc li span{
+   width: 300px;
+}
+.cc li{
+    margin-top:3dvh ;
+    margin-bottom:3dvh ;
+}
+.aadd::placeholder{
+color:rgb(252, 244, 244)
+}
+.modal-window{
+   background-color: #5e525c;
+
+}
+.bx{
+    background-color: #242224;
+}
+.ffdd{
+    margin-left: 10px;
+}
